@@ -15,3 +15,5 @@ jobs:
 
     - name: Run a simple command
       run: echo "Hello from GitHub Actions"
+    - name: Run tests
+      run: python -m pytest
